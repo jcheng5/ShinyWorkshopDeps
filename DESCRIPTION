@@ -8,7 +8,7 @@ Authors@R: c(
 Description: Install this package to automatically grab all the dependencies
     you'll need for the Shiny workshop
 Imports: cranlogs,
-    DT,
+    DT (>= 0.3.2),
     flexdashboard,
     gapminder,
     lubridate,
@@ -22,6 +22,8 @@ Imports: cranlogs,
     dplyr,
     ggplot2,
     stringr
+Remotes:
+    rstudio/DT
 License: GPL
 Encoding: UTF-8
 LazyData: true
