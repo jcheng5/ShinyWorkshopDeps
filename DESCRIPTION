@@ -13,7 +13,7 @@ Imports: cranlogs,
     gapminder,
     lubridate,
     miniUI,
-    shiny,
+    shiny (>= 1.0.5),
     shinyBS,
     shinydashboard,
     shinyjs,
@@ -21,7 +21,8 @@ Imports: cranlogs,
     shinytoastr,
     dplyr,
     ggplot2,
-    stringr
+    stringr,
+    leaflet
 Remotes:
     rstudio/DT
 License: GPL
